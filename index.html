@@ -2,22 +2,31 @@
 <html>
 
 <head>
+	<link rel="stylesheet" type="text/css" href="geral.css" />
 	<title>Módulo de Autenticação Web</title>
 </head>
 
 <body>
-	<!-- on do onsubmit são eventos no Java Script -->
-	<form method="post" action="sucesso.html" onsubmit="return validar()">
-		<img src="img/configuration_config_system_1540.png">
-		Login <input type="text" name="login" id="login">
-		senha <input type="password" name="senha" id="senha">
-		<input type="submit" value="enviar">
-		<!--
+	<div id="topo">
+		<h1>Projeto ambientação</h1>
+	</div>
+	<div id="entra">
+		<!-- on do onsubmit são eventos no Java Script -->
+		<form method="post" action="sucesso.html" onsubmit="return validar()">
+			<img src="img/configuration_config_system_1540.png">
+			Login <input type="text" name="login" id="login">
+			senha <input type="password" name="senha" id="senha">
+			<input type="submit" value="enviar">
+			<!--
 			<input type="checkbox" id="horns" name="horns">
 		<label for="scales">Continue conectado</label>
 		<a href="mailto:yedocosta@gmail.com">Send email</a>
 		-->
-	</form>
+		</form>
+		<p style="font-size: 28px; text-align: center ;">
+			Este projeto é desenvolvido pelos alunos do SENAI Brasília, do curso de Desenvolvedor C#.
+		</p>
+	</div>
 
 	<script src="Javascript/valida.js"></script>
 

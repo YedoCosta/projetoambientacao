@@ -1,4 +1,5 @@
 function gerarPontos(){
+    // innerHTML - 
    document.getElementById("pontos").innerHTML=  Math.random();;
     
     var login = window.sessionStorage.getItem('login');
